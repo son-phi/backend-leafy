@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and local configuration
+.env
+.env.*
+*.local
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# ML artifacts and local data
+*.pt
+*.pth
+*.onnx
+*.ckpt
+uploads/
+data/

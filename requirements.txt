@@ -1,0 +1,15 @@
+fastapi>=0.110
+pillow>=10.0
+python-multipart>=0.0.9
+timm>=1.0.3
+torch>=2.1
+torchvision>=0.16
+uvicorn[standard]>=0.27
+# --- model bệnh ---
+ultralytics>=8.3
+opencv-python
+numpy
+pandas
+safetensors
+scikit-learn==1.6.1    # PHẢI đúng 1.6.1: stacker.pkl được tạo bằng bản này trên Kaggle
+psutil
